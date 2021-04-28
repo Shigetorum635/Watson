@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node src/server/Classes/Server.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "chalk": "^4.1.1",
+    "console-plus": "^0.1.1",
+    "global": "^4.4.0",
+    "koa": "^2.13.1",
+    "sails": "^1.4.2"
+  },
+  "name": "watson",
+  "version": "1.0.0",
+  "description": "A nice lil wbe",
+  "main": "src/server/Classes/Server.js",
+  "repository": "https://github.com/Sylack-lab/Watson.git",
+  "author": "Sylack <ilarumbgim1@educacion.navarra.es>",
+  "license": "MIT"
+}
