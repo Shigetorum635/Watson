@@ -7,7 +7,7 @@ Resistances = [
 ]
 
 for resistor in Resistances do
-    puts "Volatge = #{resistor*Intensity}V"
+    puts "Voltage = #{resistor*Intensity}V"
 
     puts "i = #{i}"
 end
