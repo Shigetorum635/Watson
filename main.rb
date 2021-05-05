@@ -36,10 +36,7 @@ end
 
 josh = Fighter.new(20, 3, "Josh")
 james = Fighter.new(30,5, "James" )
-def FIGHT(fighters)
-    for figher in fighters do
-        
-    end
+
 while true
     james.fight(josh)
     sleep(1)
