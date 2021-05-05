@@ -39,6 +39,7 @@ james = Fighter.new(30,5, "James" )
 
 while true
     james.fight(josh)
-    sleep(1)
+    sleep(0.5)
+    system("clear")
     josh.fight(james)
 end
