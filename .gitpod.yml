@@ -8,5 +8,5 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: echo "  ahah" # runs during prebuild
-    command: gem install ruby2d &&  ruby 2d.rb
+  - init: "Install" # runs during prebuild
+    command: sudo apt-get install firefox && firefox
