@@ -1,5 +1,5 @@
 
-# Watson - Gitpod VNC Setup for Ruby2D
+# Watson - Gitpod VNC Setup for Firefox
 
 - Connect repository with gitpod.io with the prefix `gitpod.io#{reposrc}`.
 
