@@ -1,6 +1,6 @@
 <div align="center">
 
-# Watson - Gitpod VNC Setup for Firefox
+# Watson - A private Gitpod VNC Setup for Firefox
 
 </div>
 
@@ -10,9 +10,11 @@
 
 Watson allows you to browse anonymously on a server-sided virtual machine that's hosted by Gitpod. It's fully free to set up and use.
 
-**#1**: Link your Gitlab account with Gitpod.
+**#1**: Link your Gitlab / Gitpod account with Gitpod.
 
-**#2**: Open the workspace in Gitpod. [![](https://img.shields.io/badge/Gitpod-Open--in--Gitpod-orange?logo=gitpod)](https://gitpod.io/#https://gitlab.com/Kqpa/watson) 
+**#2**: Open the workspace in Gitpod. 
+
+[![](https://img.shields.io/badge/Gitpod-Open--in--Gitpod-orange?logo=gitpod)](https://gitpod.io/#https://github.com/Shigetorum635/Watson)
 
 **#3**: When the workspace is ready, click **open preview** or **open browser** on port `6080`.
 
