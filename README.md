@@ -12,7 +12,7 @@ Watson allows you to browse anonymously on a server-sided virtual machine that's
 
 **#1**: Link your Gitlab / GitHub / Bitbucket account with Gitpod.
 
-**#2**: Open the workspace in Gitpod. [![](https://img.shields.io/badge/Gitpod-Open--in--Gitpod-black?logo=gitpod)](https://github.com/Shigetorum635/Watson) 
+**#2**: Open the workspace in Gitpod. [![](https://img.shields.io/badge/Gitpod-Open--in--Gitpod-black?logo=gitpod)](https://gitpod.io/#https://github.com/Shigetorum635/Watson) 
 
 **#3**: When the workspace is ready, click **open preview** or **open browser** on port `6080`.
 
