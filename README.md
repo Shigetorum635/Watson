@@ -1,16 +1,33 @@
+<div align="center">
 
 # Watson - Gitpod VNC Setup for Firefox
 
-- Connect repository with gitpod.io with the prefix `gitpod.io#{reposrc}`.
+</div>
 
-- Launch repository on gitpod.io.
+![](https://i.imgur.com/bR92xAy.png)
 
-- Click 'Open Browser' on port `6080`. 
+## Setup
 
-- To make the VM public, click make public; to make it private, click make private.
+Watson allows you to browse anonymously on a server-sided virtual machine that's hosted by Gitpod. It's fully free to set up and use.
 
-- To close the VM, go to gitpod dashboard and click "stop".
- 
- FYI: Data does not save when you quit the VM! 
+**#1**: Link your Gitlab account with Gitpod.
 
-<a href="https://gitpod.io/#https://github.com/Sylack-lab/Watson/"><img src="https://gitpod.io/button/open-in-gitpod.svg"></a>
+**#2**: Open the workspace in Gitpod. [![](https://img.shields.io/badge/Gitpod-Open--in--Gitpod-orange?logo=gitpod)](https://gitpod.io/#https://gitlab.com/Kqpa/watson) 
+
+**#3**: When the workspace is ready, click **open preview** or **open browser** on port `6080`.
+
+**#4**: Right click the black dekstop, and click **Web browser**. This will launch Firefox.
+
+## Important Notes
+
+- Gitpod allows you to spend 50 hours on a workspace for free montly as the free plan. Please stop the workspace after you're done with the virtual machine. This can be done by going to the Gitpod dashboard, clicking the 3 dots and pressing **Stop**.
+
+- Your workspace will be deleted in 14 days if you don't pin it on Gitpod. You can pin your workspace by clicking the 3 dots and pressing **Pin**.
+
+- Everything you've done will be deleted when you stop the workspace, and you cannot keep a workspace open forever. It automatically stops after 30 minutes.
+
+- Making port `6080` public will give everyone who has the noVNC link access to your virtual machine.
+
+- Do not close the tab while the workspace is creating, stopping or starting. If you do so the workspace will fail. You can fix this by re-creating the workspace.
+
+- If the workspace is stuck at the loading page for a long time, re-create it.
